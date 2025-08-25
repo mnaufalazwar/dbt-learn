@@ -19,6 +19,7 @@ sources:
             freshness: null
             columns:
               - name: id
+                description: primary key for customer data
                 tests:
                   - unique
                   - not_null
